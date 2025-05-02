@@ -14,4 +14,7 @@ lint:
 	npx eslint .  # Проверка кода с помощью ESLint
 
 make-lint:
-	npx eslint .  # Альтернативная команда для запуска линтера
+	npx eslint .  # Альтернативная команда для запуска линтера  n    n/m.hn
+
+gendiff:
+	node bin/gendiff.js $(ARGS)

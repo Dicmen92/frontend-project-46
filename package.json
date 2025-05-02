@@ -2,6 +2,9 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
   "description": "[![Actions Status](https://github.com/Dicmen92/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dicmen92/frontend-project-46/actions)",
   "main": "index.js",
   "scripts": {
@@ -10,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commander": "^13.1.0",
     "readline-sync": "^1.4.10"
   }
 }
